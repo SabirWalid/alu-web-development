@@ -3,7 +3,8 @@
 <head>
      <title>Homepage</title>
      <link href="base.css" rel="stylesheet">
-     <link href="style.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="styles.css" rel="stylesheet">
 </head>
 sour_file = "base_index.html"
 destination_file = "index.html"
@@ -15,7 +16,7 @@ with open(destination_file, "w") as destination:
      destination.write(content)
 
 print("File copied successfully")
-<body>
+<body class="works_on_smartphone">
    <header>
      <ul>
           <li><a href="index.html">Home</a></li>
