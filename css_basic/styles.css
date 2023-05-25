@@ -8,6 +8,27 @@ body {
     flex-direction: column;
 }
 
+/* Customize color */
+body {
+    background-color: #f0f0f0;
+    color:#333333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+a {
+    color: #007bff;
+}
+
+/* Add a logo to the top-left of the page */
+.logo {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
 /* Set row direction for main */
 main {
     flex-direction: row;
@@ -30,4 +51,19 @@ aside {
 /* Enable scrolling within article and aside */
 article, aside {
     overflow-y: auto;
+}
+
+/* Style the article content */
+article {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize the footer */
+footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
 }
